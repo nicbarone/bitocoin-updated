@@ -1,0 +1,56 @@
+
+
+h1   {
+	color: #253b69; 
+	top: 80%;
+	font-family: "Arial";
+	position: absolute;
+	background-color: grey;
+	border: 1px  solid black;
+	padding: 10px;
+	margin: 0px;}
+h2   {
+	color: red;
+	top: 0%;
+	position: absolute;
+	}
+p   {
+	color: #253b69;
+	font-family: "Helenetica Neue";
+	font-size: 160%; 
+	top: 101.25%;
+	position: absolute;
+	background-color: grey;
+	}
+p.lang {
+	color: red;
+	top: 70%;
+	position: absolute;
+}
+body {
+	background-image: url(bitcoin-bounce-614xa.png); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	}
+#into {
+	
+	margin-top: 20%;
+	margin-left: 30%
+	position: absolute;
+}
+#next {
+	margin-top:20;
+	position:absolute;
+}
+#p01 {
+	color: blue;
+	font-family: courier;
+	top: 1000px;
+	position: absolute;
+}
+#back {
+	background-color: #DCDCDC;
+	height: 30%;
+	width: 100%;
+	position: absolute;
+}
