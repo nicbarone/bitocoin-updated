@@ -1,3 +1,16 @@
+<html>
+
+
+
+<style type="text/css">
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 #menu li {
 list-style-type:none;
 display:inline;	
@@ -6,10 +19,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 color:white;
 margin:0px;
 padding:6px;
-border-top-color:white;
-border-top:solid;
-border-bottom-color:white;
-border-bottom:solid;
+
 
 
 }
@@ -60,8 +70,7 @@ display: table;
 
 ul#menu li {
 	display:inline;
-	border-left:solid;
-	border-color:white;
+	
 	
 	
 	
@@ -151,7 +160,7 @@ top:9%;
 #header {
 	font-size:36px;
 	 background-color:#253b69;
-	 color:white;
+	 
 	 padding:3px;
 	 /*
 	 -moz-border-radius: 50px/100px;
@@ -182,17 +191,139 @@ width:100%;
 	
 	float:left;
 }
-section{
-	color:white;
-	background-color:#253b69;
-	float:left;
-	width:50%;
-	height:50%;
-	margin:0px;
-	text-align:center;
-}
-.list {
+
+<!-- .list {
 	color:white;
 	text-align:left;
 	font-size: 18px;
+} -->
+#rate {
+margin-top:20px;
+width: 80%;
+border: 1px solid black;
+border-collapse: collapse;
+text-align: center;
+margin-left: auto;
+ margin-right: auto;
+ font-size: 24px;
+ 
 }
+body {
+    background-image: url("miami.jpg");
+	background-size:100%;
+}
+#sec {
+margin-top:24%;
+text-align:center;
+margin-left;0px;
+margin-right:0px;
+position: fixed;
+    bottom: 0;
+font-size: 20px;
+color:white;
+background-color : #253b69;
+}
+td {
+border-right: 1px solid black;
+border-collapse: collapse;
+
+}
+th {
+border-collapse: collapse;
+border-bottom:1px solid black;
+
+font-weight:bold;
+
+}
+#buttons {
+margin-top:15px;
+}
+#signin{
+background:#253b69;
+	 color:white;
+	 padding:3px;
+	 font-size: 24px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	background-color:#253b69;
+    text-decoration: none;
+    color: white;
+}
+</style>
+
+
+<div class"table">
+<div id="menu">
+<ul>
+<li >
+<a class="current" href="index.html"> Home  </a>
+
+</li>
+
+<li>
+<a  href="info.html"> Info  </a>
+
+</li>
+
+<li>
+<a  href="rates.html">  Rates  </a>
+
+</li>
+
+<li id="last">
+<a  href="contact.html"> Contact Us </a>
+
+</li>
+
+</ul>
+</div>
+</div>
+
+<table id="rate">
+<tr id="table" >
+	<th> Amount (US Dollars) </th>
+	<th> Base Rate           </th>
+	<th> Amount Covered </th>
+
+</tr>
+<tr>
+	<td> 0-500 </td>
+	<td> $40           </td>
+	<td> Full Amount  </td>
+
+</tr>
+<tr>
+	<td> 501-1200 </td>
+	<td> $125           </td>
+	<td> Full Amount  </td>
+
+</tr>
+<tr>
+	<td> 1201++ </td>
+	<td> 15% of insured value          </td>
+	<td> 80% of insured value  </td>
+
+</tr>
+</table>
+<body> 
+<div style="text-align:center;" id="buttons" >
+    
+
+<form>
+    <button formaction="login.html" id="signin">Get Started</button>
+</form>
+
+</div>
+
+
+<section id="sec">
+Here at Bitsurance, we know there is no "fit-all" insurance plan. We tailor our offerings
+ to your needs, to give you that financial peace of mind that is so important for investors.
+We offer simple plans that can serve all types of investors, from the hobbyist to the professional. 
+If you find our current plans don't fit your needs, feel free to contact us to make your own, unique plan. 
+</section>
+</body>
+</html>
